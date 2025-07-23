@@ -39,10 +39,10 @@ jobs:
         
     - name: Build executable
       run: |
-        pyinstaller --onefile --windowed --icon=yt.ico --add-data "utils;utils" --add-data "core;core" --add-data "ui;ui" short.py
+        pyinstaller --onefile --windowed --icon=yt.ico --add-data "utils;utils" --add-data "core;core" --add-data "ui;ui" main.py
         
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: Shorts
-        path: dist/short.exe
+        path: dist/main.exe
