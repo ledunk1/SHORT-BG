@@ -1,0 +1,1 @@
+# Core module for Green Screen Auto Editor

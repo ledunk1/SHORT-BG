@@ -1,0 +1,16 @@
+# Core dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+moviepy>=1.0.3
+
+# GUI dependencies
+tkinter  # Usually included with Python
+
+# Optional GPU acceleration
+# opencv-contrib-python>=4.8.0  # Uncomment for additional OpenCV features
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
